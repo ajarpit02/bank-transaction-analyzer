@@ -5,6 +5,8 @@ def say_hello(name):
 
 def say_bye(name):
     return f"Goodbye, {name}!"
+def hello():
+    return "hi"
 
 if __name__ == "__main__":
     print(say_hello("Arpit"))
